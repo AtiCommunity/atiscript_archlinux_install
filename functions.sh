@@ -86,7 +86,7 @@ help() {
    echo "  -U, --update                   Update the system"
    echo "  -M, --install-package-manager  Install the AUR package manager (yay)"
    echo "  -P, --install-packages         Install all packages listed in packages.conf"
-   echo "  -S, --enable-services          Enable services listed in packages.conf\033[0m"
+   echo -e "  -S, --enable-services          Enable services listed in packages.conf\033[0m"
 }
 
 update_system() {
